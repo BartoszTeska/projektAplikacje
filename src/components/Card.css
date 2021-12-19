@@ -1,0 +1,52 @@
+.card-profile {
+  width: 500px;
+  height: 340px;
+  border: 2px solid #fbf3e4;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  border-radius: 10px;
+  padding: 4px 4px;
+}
+
+.card-profile > img {
+  width: 237px;
+  height: 330px;
+}
+
+.card-profile > .card-profile-text {
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-profile > .card-profile-text > h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-profile > .card-profile-text > h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-profile > .card-profile-text > :not(h1, h2) {
+  font-size: 12px;
+}
+
+.card-profile > .card-profile-text > .card-profile-text__keywords {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  font-weight: 600;
+}
+
+.card-profile > .card-profile-text > .card-profile-text__rules {
+  font-style: italic;
+}
+
+.card-profile > .card-profile-text > .card-profile-text__stats {
+  font-weight: bolder;
+  font-size: 20px;
+}
